@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landwind – Tailwind Figma Replica</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="antialiased text-gray-800">
+  <br>
+  <br>
+  <br>
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+    <div class="max-w-screen-xl mx-auto px-6 py-4 flex justify-between items-center">
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <img src="Assets/logo.svg" alt="Logo" class="h-8 w-8">
+        <span class="text-2xl font-bold">Landwind</span>
+      </div>
+      <!-- Links -->
+      <ul class="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
+        <li><a href="#company" class="hover:text-[#7E3AF2]">Company</a></li>
+        <li><a href="#features" class="hover:text-[#7E3AF2]">Marketplace</a></li>
+        <li><a href="#marketplace" class="hover:text-[#7E3Af2]">Features</a></li>
+        <li><a href="#team" class="hover:text-[#7E3AF2]">Team</a></li>
+        <li><a href="#contact" class="hover:text-[#7E3AF2]">Contact</a></li>
+      </ul>
+      <!-- Buttons -->
+      <div class="flex items-center space-x-4">
+        <a href="#login" class="">Log in</a>
+        <a href="#get-started" class="px-5 py-2 rounded-lg bg-[#7E3AF2] text-white font-medium hover:shadow-lg hover:shadow-purple-300">Get started</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="company" class="">
+    <div class="max-w-screen-xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+      <!-- Left -->
+      <div class="flex-1">
+         <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+          Building digital products & brands.
+        </h1>
+        <p class="text-zinc-400 text-lg mb-8">
+          Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#free_trial" class="bg-[#7E3AF2] text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg">Start 30 days free trial</a>
+          <a href="#faq" class="px-6 py-3 rounded-lg border border-slate-200 font-medium text-gray-700 hover:bg-gray-100">Pricing & FAQ</a>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div class="flex-1">
+        <img src="Assets/marketing-strategy 1.png" alt="Hero Illustration" class="w-full max-w-lg mx-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Customers Logo -->
+<section class="py-10 bg-white">
+  <div class="max-w-screen-xl mx-auto px-6">
+    <!-- Section Title -->
+    <!-- Logo Row -->
+    <div class="flex flex-wrap justify-start items-start gap-x-24 gap-y-14">
+      <img src="Assets/Google.png" alt="Company 1" class="h-8 md:h-8 object-contain">
+      <img src="Assets/Microsoft.png" alt="Company 2" class="h-8 md:h-8 object-contain">
+      <img src="Assets/Spotify.png" alt="Company 3" class="h-8 md:h-8 object-contain">
+      <img src="Assets/mailchimp.png" alt="Company 4" class="h-8 md:h-8 object-contain">
+      <img src="Assets/airbnb.png" alt="Company 5" class="h-8 md:h-8 object-contain">
+      <img src="Assets/Uber.png" alt="Company 6" class="h-8 md:h-6 object-contain">
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Features Section -->
+  <section id="feature" class="py-20 bg-white">
+    <div class="max-w-screen-xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <!-- Left Text -->
+      <div>
+        <h2 class="text-4xl font-bold mb-6">Work with tools you already use</h2>
+        <p class="text-zinc-500 text-lg mb-6">Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
+        <hr class="">
+        <br>
+        <ul class="space-y-4">
+          <li class="flex items-center space-x-2">
+            <img src="Assets/Vector (4).png" class="h-5 w-5">
+            <span class="font-medium">Continuous integration and deployment</span>
+          </li>
+          <li class="flex items-center space-x-2">
+            <img src="Assets/Vector (4).png" class="h-5 w-5">
+            <span class="font-medium">Development workflow</span>
+          </li>
+          <li class="flex items-center space-x-2">
+            <img src="Assets/Vector (4).png" class="h-5 w-5">
+            <span class="font-medium">Knowledge management</span>
+          </li>
+        </ul>
+        <br>
+    <p class="text-zinc-500 text-lg  mb-8 ">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</p>
+
+      </div>
+
+      <!-- Right Image -->
+      <div>
+        <img src="Assets/features-1 1.png" alt="Feature 1" class="w-full">
+      </div>
+    </div>
+  </section>
+
+  <!-- Second Feature -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-screen-xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <!-- Image -->
+      <div>
+        <img src="Assets/feature-2 1.png" alt="Feature 2" class="w-full">
+      </div>
+      <!-- Text -->
+      <div>
+        <h2 class="text-4xl font-bold mb-6">We invest in the world’s potential</h2>
+        <p class="text-zinc-500 text-lg mb-6">Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
+        <ul class="space-y-4">
+          <li class="flex items-center space-x-2"><img src="Assets/Vector (4).png" class="h-5 w-5"><span class="font-medium">Dynamic reports and dashboards</span></li>
+          <li class="flex items-center space-x-2"><img src="Assets/Vector (4).png" class="h-5 w-5"><span class="font-medium">Templates for everyone</span></li>
+          <li class="flex items-center space-x-2"><img src="Assets/Vector (4).png" class="h-5 w-5"><span class="font-medium">Development workflow</span></li>
+          <li class="flex items-center space-x-2"><img src="Assets/Vector (4).png" class="h-5 w-5"><span class="font-medium">Limitless business automation</span></li>
+          <li class="flex items-center space-x-2"><img src="Assets/Vector (4).png" class="h-5 w-5"><span class="font-medium">Knowledge management</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof -->
+  <section class="py-20 bg-white">
+    <div class="max-w-screen-xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <!-- Left -->
+      <div>
+        <p class="text-[#7E3AF2] font-medium mb-2">Trusted Worldwide</p>
+        <h2 class="text-4xl font-bold mb-6">Trusted by over 600 million users and 10,000 teams</h2>
+        <p class="text-zinc-400 text-lg mb-6">Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
+        <a href="#guide" class="block text-[#7E3AF2] mb-2">Explore Legality Guide →</a>
+        <a href="#trust_center" class="block text-[#7E3AF2]">Visit the Trust Center →</a>
+      </div>
+
+      <!-- Right Stats -->
+      <div class="grid grid-cols-2 gap-8">
+        <div><img src="Assets/Vector.png"><h3 class="text-2xl font-bold mt-3">99.99% uptime</h3><p class="text-zinc-400">for Flowbite, with zero <br> maintainenance downtime</p></div>
+        <div><img src="Assets/Vector (2).png"><h3 class="text-2xl font-bold mt-3">600M+ Users</h3><p class="text-zinc-400">trusted by over 600 million users around  the world</p></div>
+        <div><img src="Assets/Vector (1).png"><h3 class="text-2xl font-bold mt-3">Millions</h3><p class="text-zinc-400">of transactions per day</p></div>
+        <div><img src="Assets/Vector (3).png"><h3 class="text-2xl font-bold mt-3">100+ countries</h3><p class="text-zinc-400">have used Flowbite to create functional websites</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="py-20 bg-gray-50 text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <img src="Assets/icon.png" alt="Quote" class="mx-auto mb-6">
+      <p class="text-xl md:text-2xl font-medium mb-6">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+      <div class="flex justify-center items-center space-x-3">
+        <img src="Assets/Avatar.png" alt="User" class="h-10 w-10 rounded-full">
+        <span class="font-bold">Micheal Gough</span>
+        <span class="text-zinc-400 align-text-top">/ CEO at Google</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="get_started" class="py-20 bg-white">
+    <div class="max-w-screen-xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-4">Pay as you grow</h2>
+      <p class="text-zinc-500 justify-center text-lg mb-12">Here at Flowbite we focus on markets where technology, innovation, and capital <br> can unlock long-term value and drive economic growth.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Pricing Cards (same structure for Starter, Company, Enterprise) -->
+        <!-- Example Starter -->
+        <div class="border rounded-lg p-8 shadow hover:shadow-lg transition">
+          <h3 class="text-2xl font-bold mb-4">Starter</h3>
+          <p class="text-zinc-400 mb-4">Great for personal use and for your <br>side projects.</p>
+          <div class="text-5xl font-bold mb-6">$49<span class="text-lg font-normal">/month</span></div>
+          <ul class="space-y-3 text-left">
+            <li>✔ Individual configuration</li>
+            <li>✔ No setup or hidden fees</li>
+            <li>✔ Team size: <b>1 developer</b></li>
+            <li>✔ Premium support: <b>6 months</b></li>
+            <li>✔ Free Updates: <b>6 months</b></li>
+          </ul>
+          <a href="#start" class="block mt-6 bg-[#7E3AF2] text-white py-3 rounded-lg">Get started</a>
+        </div>
+
+        <div class="border rounded-lg p-8 shadow hover:shadow-lg transition">
+          <h3 class="text-2xl font-bold mb-4">Company</h3>
+          <p class="text-zinc-400 mb-4">Best for large scale uses and extended redistribution rights.</p>
+          <div class="text-5xl font-bold mb-6">$99<span class="text-lg font-normal">/month</span></div>
+          <ul class="space-y-3 text-left">
+            <li>✔ Individual configuration</li>
+            <li>✔ No setup or hidden fees</li>
+            <li>✔ Team size: <b>10 developer</b></li>
+            <li>✔ Premium support: <b>24 months</b></li>
+            <li>✔ Free Updates: <b>24 months</b></li>
+          </ul>
+          <a href="#start" class="block mt-6 bg-[#7E3AF2] text-white py-3 rounded-lg">Get started</a>
+        </div>
+
+        <div class="border rounded-lg p-8 shadow hover:shadow-lg transition">
+          <h3 class="text-2xl font-bold mb-4">Enterprise</h3>
+          <p class="text-zinc-400 mb-4">Best for large scale uses and extended redistribution rights.</p>
+          <div class="text-5xl font-bold mb-6">$499<span class="text-lg font-normal">/month</span></div>
+          <ul class="space-y-3 text-left">
+            <li>✔ Individual configuration</li>
+            <li>✔ No setup or hidden fees</li>
+            <li>✔ Team size: <b>100+ developer</b></li>
+            <li>✔ Premium support: <b>36 months</b></li>
+            <li>✔ Free Updates: <b>36 months</b></li>
+          </ul>
+          <a href="#start" class="block mt-6 bg-[#7E3AF2] text-white py-3 rounded-lg">Get started</a>
+        </div>
+        <!-- Repeat for Company + Enterprise -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="free_trial" class="py-20 bg-gray-50 text-center">
+    <h2 class="text-4xl font-bold mb-4">Start your free trial today</h2>
+    <p class="text-zinc-400 mb-6">Try Flowbite Platform for 30 days. No credit card required.</p>
+    <a href="#start_free" class="bg-[#7E3AF2] text-white px-8 py-3 rounded-lg font-normal hover:shadow-lg">Free trial for 30 days</a>
+  </section>
+
+       <!-- Footer -->
+  <footer class="bg-white border-t py-10 text-center space-y-4">
+    <div class="flex justify-center items-center space-x-2">
+      <img src="Assets/logo.svg" class="h-6">
+      <span class="text-xl font-semibold">Landwind</span>
+    </div>
+    <p class="text-gray-600 text-sm">© 2022 Flowbite, Inc. All rights reserved.</p>
+    <div class="flex justify-center space-x-6 text-gray-600">
+      <a href="#" class="hover:text-blue-600"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="hover:text-pink-600"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" class="hover:text-blue-700"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" class="hover:text-black"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" class="hover:text-gray-900"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+   <!-- Social Links with Images -->
+<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+  <a href="#" class="hover:opacity-80 transition">
+    <img src="Assets/github.png" alt="Github" class="w-5 h-5">
+  </a>
+  <a href="#" class="hover:opacity-80 transition">
+    <img src="Assets/twitter.png" alt="Twitter" class="w-5 h-5">
+  </a>
+  <a href="#" class="hover:opacity-80 transition">
+    <img src="Assets/dribbble.png" alt="Dribbble" class="w-5 h-5">
+  </a>
+  <a href="#" class="hover:opacity-80 transition">
+    <img src="Assets/facebook.png" alt="Facebook" class="w-5 h-5">
+  </a>
+</div>
+  </footer>
+</body>
+</html>
